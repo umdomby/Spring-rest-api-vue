@@ -17,11 +17,11 @@
                 profile: frontendData.profile
             }
         },
-      beforeMount() {
-        if (this.profile) {
-          this.$router.replace('/message2')
-        }
-      }
+      // beforeMount() {
+      //   if (this.profile) {
+      //     this.$router.replace('/message2')
+      //   }
+      // }
     }
 </script>
 

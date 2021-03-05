@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 // import MessagesList from 'pages/MessageList.vue'
 import Home from 'pages/home.vue'
 import Message2 from 'pages/Message2.vue'
+import Contact2 from 'pages/Contact2.vue'
 
 
 // import Auth from 'pages/Auth.vue'
@@ -15,6 +16,7 @@ const routes = [
     // { path: '/', component: MessagesList },
     { path: '/home', component: Home},
     { path: '/message2', component: Message2},
+    { path: '/contact2', component: Contact2},
 
     // { path: '/auth', component: Auth },
     // { path: '/user/:id?', component: Profile },
